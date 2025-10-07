@@ -1,1 +1,73 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
 
+/* New Color Palette:
+* Lightest (Text):         #c2c5bb
+* Medium Green (Primary):  #499f68    
+* Light Green (Secondary): #72b372
+* Reddish-Brown (Accent):  #b4654a
+*/
+
+body {
+  background-color: #72b372;
+}
+
+.navbar, .navbar-brand,
+.navbar-nav,
+.nav-link {
+  color: #c2c5bb;
+  font-weight: bold;
+  font-family: "Outfit";
+}
+
+.navbar-light {
+  background-color: #b4654a !important;
+}
+
+.btn {
+  background-color: #499f68;
+  color: #c2c5bb;
+  font-size: 1rem !important;
+}
+
+.form-control {
+  font-family: "Outfit";
+  color: black !important;
+}
+
+.form-group, .form-check-label {
+  font-family: "Outfit";
+  margin: 10px;
+}
+
+label, .form-check-label {
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  font-family: "Outfit";
+  font-size: 2.25rem;
+}
+
+#email {
+  color: #c2c5bb;
+  font-size: 1rem;
+}
+
+.form-check {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.make-inline {
+  display: inline;
+  margin-left: 10px;
+}
+
+#submit {
+  margin-top: 30px;
+}
